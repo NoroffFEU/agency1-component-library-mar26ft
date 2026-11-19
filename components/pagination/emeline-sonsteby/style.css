@@ -1,0 +1,51 @@
+.pagination-container {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 25rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.page-number, .ellipsis {
+  padding: 5px;
+  height: 100%;
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.page-number {
+  cursor: pointer;
+}
+
+.page-btn {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  margin: 0.2rem;
+  transform: rotate(225deg);
+  cursor: pointer;
+  align-self: center;
+}
+.next-btn {
+  transform: rotate(45deg);
+}
+.active {
+  background-color: black;
+  color: white;
+}
