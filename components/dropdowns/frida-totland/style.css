@@ -83,6 +83,10 @@ body {
   color: #0c5460;
 }
 
+.dropdown__item:hover {
+  background-color: #f8f9fa;
+}
+
 label, 
 input {
   cursor: pointer;
