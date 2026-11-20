@@ -44,6 +44,7 @@ const COMPONENTS = {
   ],
   dropdowns: [
     { name: "Menu Dropdown", folder: "example-menu", author: "Example" },
+    { name: "Filter Dropdown", folder: "frida-totland", author: "Frida Totland"}
   ],
   modals: [
     { name: "Confirm Dialog", folder: "example-confirm", author: "Example" },
