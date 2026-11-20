@@ -7,21 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="pagination-container">
-      <nav class="pagination">
-        <a class="page-btn prev-btn" aria-label="Previous page"></a>
-        <div class="numbers-container">
-          <a class="page-number active" data-page="1">1</a>
-          <a class="page-number" data-page="2">2</a>
-          <a class="page-number" data-page="3">3</a>
-          <a class="page-number" data-page="4">4</a>
-          <span class="ellipsis">...</span>
-          <a class="page-number" data-page="10">10</a>
-          <a class="page-number" data-page="11">11</a>
-          <a class="page-number" data-page="12">12</a>
-          <a class="page-number" data-page="13">13</a>
-        </div>
-        <a class="page-btn next-btn" aria-label="Next page"></a>
+    <div class="pagination">
+      <nav class="pagination-bar">
+        <button class="page-btn prev-btn" id="prev-btn" aria-label="Previous page"></button>
+        <div class="page-numbers-container" id="page-numbers-container"></div>
+        <button class="page-btn next-btn" id="next-btn" aria-label="Next page"></button>
       </nav>
     </div>
     <script src="script.js"></script>
