@@ -52,6 +52,7 @@ const COMPONENTS = {
     { name: "Top Navigation", folder: "example-top", author: "Example" },
   ],
   pagination: [
+    { name: "Numbered Pagination with Ellipsis", folder: "emeline-sonsteby", author: "Emeline Sonsteby" },
     { name: "Numbered Pagination", folder: "example-numbered", author: "Example" },
   ],
   "progress-bars": [
