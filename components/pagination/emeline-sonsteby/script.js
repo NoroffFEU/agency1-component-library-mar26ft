@@ -1,7 +1,6 @@
-const totalPages = 3;
+const totalPages = 10; // Fill in total amount of pages
 
 let currentPage = 1;
-
 const numbersContainer = document.querySelector("#page-numbers-container");
 const previousBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
